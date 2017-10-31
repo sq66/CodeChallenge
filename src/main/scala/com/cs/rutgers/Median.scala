@@ -3,7 +3,7 @@ package com.cs.rutgers
 import scala.annotation.tailrec
 
 /**
-  * Created by zxj on 10/26/17.
+  * Created by shuyin qiu on 10/26/17.
   */
 object Median {
   def quickselect(k: Int, xs: Array[Int]): Option[Int] = {

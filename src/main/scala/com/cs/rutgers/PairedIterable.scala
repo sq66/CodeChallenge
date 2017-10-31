@@ -3,6 +3,10 @@ package com.cs.rutgers
 import scala.annotation.tailrec
 import scala.collection.mutable
 
+/**
+  * Created by shuyin qiu on 10/26/17.
+  */
+
 
 class PairedIterable[K, V](x: Iterable[(K, V)]) {
   def reduceByKey(func: (V,V) => V): mutable.HashMap[K, V] = {

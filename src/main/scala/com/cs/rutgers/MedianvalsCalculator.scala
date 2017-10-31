@@ -1,7 +1,6 @@
 package com.cs.rutgers
 
 import java.io._
-import java.nio.charset.Charset
 import java.nio.file.{Files, Path, Paths}
 
 import com.cs.rutgers.Median.median
@@ -10,7 +9,7 @@ import scala.collection.mutable
 import scala.io.Source
 import scala.util.{Failure, Success, Try}
 /**
-  * Created by zxj on 10/25/17.
+  * Created by shuyin qiu on 10/25/17.
   */
 object MedianvalsCalculator {
   val monthDayMap = mutable.HashMap(

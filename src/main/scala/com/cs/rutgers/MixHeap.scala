@@ -1,7 +1,7 @@
 package com.cs.rutgers
 
 /**
-  * Created by zxj on 10/31/17.
+  * Created by shuyin qiu on 10/27/17.
   */
 import scala.collection.mutable
 
